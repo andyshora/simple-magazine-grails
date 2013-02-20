@@ -3,11 +3,11 @@ Simple Magazine in Grails
 
 Example curl post to add a new article
 ----------
-sudo curl -d "title=abc&content=def&imageURL=https://d3kegqx9p35g1q.cloudfront.net/media/images/r/l/41081.jpg" http://localhost:8080/magazine/add -X POST
+	sudo curl -d "title=abc&content=def&imageURL=https://d3kegqx9p35g1q.cloudfront.net/media/images/r/l/41081.jpg" http://localhost:8080/magazine/add -X POST
 
 Example Curl to update an article with a new title
 ----------
-sudo curl -d "id=10&title=abcdef" http://localhost:8080/magazine/update -X POST
+	sudo curl -d "id=10&title=abcdef" http://localhost:8080/magazine/update -X POST
 
 Scaffolding setup for articles
 ----------
